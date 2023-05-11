@@ -3,10 +3,11 @@ package com.example.learningapplication.main.view
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.learningapplication.R
+import com.example.learningapplication.baselib.structure.base.view.BaseActivity
 import com.example.learningapplication.commonlib.utils.ValueUtils
 import com.example.learningapplication.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
