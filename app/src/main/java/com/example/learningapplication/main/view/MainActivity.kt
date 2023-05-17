@@ -1,10 +1,9 @@
 package com.example.learningapplication.main.view
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import com.example.baselib.structure.base.view.BaseActivity
 import com.example.learningapplication.R
-import com.example.learningapplication.baselib.structure.base.view.BaseActivity
-import com.example.learningapplication.commonlib.utils.ValueUtils
+import com.learning.app.commonlib.utils.ValueUtils
 import com.example.learningapplication.databinding.ActivityMainBinding
 
 class MainActivity : BaseActivity() {
@@ -16,7 +15,6 @@ class MainActivity : BaseActivity() {
         setContentView(binding.root)
         buildView()
         setListener()
-
     }
 
     private fun buildView() {

@@ -1,7 +1,7 @@
 package com.example.learningapplication
 
 import android.app.Application
-import com.example.learningapplication.commonlib.Appkit
+import com.learning.app.commonlib.ability.Appkit
 
 class LearningApplication : Application() {
     override fun onCreate() {
