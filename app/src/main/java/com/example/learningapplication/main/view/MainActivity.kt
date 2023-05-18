@@ -1,5 +1,6 @@
 package com.example.learningapplication.main.view
 
+import android.content.Intent
 import android.os.Bundle
 import com.example.baselib.structure.base.view.BaseActivity
 import com.example.learningapplication.R
@@ -25,7 +26,7 @@ class MainActivity : BaseActivity() {
 
     private fun setListener() {
         binding.tvShowBottomSheet.setOnClickListener {
-
+            startActivity(Intent(this, BaseBindingTestActivity::class.java))
         }
     }
 
