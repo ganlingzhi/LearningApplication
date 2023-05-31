@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/appui" />
             <option value="$PROJECT_DIR$/baselib" />
             <option value="$PROJECT_DIR$/commonlib" />
+            <option value="$PROJECT_DIR$/net-wrok" />
           </set>
         </option>
       </GradleProjectSettings>

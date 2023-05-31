@@ -8,7 +8,7 @@ import com.learning.app.commonlib.utils.ReflectUtil
 
 open class BaseBindingActivity<V : ViewBinding> : BaseSimpleActivity(), IBaseBindingView<V> {
     private var _binding: V? = null
-    private val mBinding get() = _binding!!
+    protected val mBinding get() = _binding!!
     override fun setContentView() {
         initViewBinding(layoutInflater, null)?.let {
             _binding = it

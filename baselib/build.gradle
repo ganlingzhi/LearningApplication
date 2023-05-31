@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace 'com.example.baselib'
-    compileSdk 33
+    compileSdk rootProject.ext.android.compileSdkVersion
 
     defaultConfig {
         minSdk rootProject.ext.android.minSdkVersion
-        targetSdk 33
+        targetSdk rootProject.ext.android.targetSdkVersion
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"

@@ -1,6 +1,6 @@
 ext {
     android = [
-            comileSdkVersion: 33,
+            compileSdkVersion: 33,
             applicationId   : "com.nowcoder.app.florida",
             minSdkVersion   : 29,
             targetSdkVersion: 33

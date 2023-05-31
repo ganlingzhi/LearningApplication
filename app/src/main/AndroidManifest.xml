@@ -20,8 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".main.view.BaseBindingTestActivity"
-            android:screenOrientation="fullSensor"/>
+        <activity
+            android:name=".main.view.BaseBindingTestActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".main.view.StatusBarTestActivity"
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>

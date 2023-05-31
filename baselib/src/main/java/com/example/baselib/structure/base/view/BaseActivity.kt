@@ -33,7 +33,7 @@ abstract class BaseActivity : AppCompatActivity() {
         ac = this
     }
 
-    private fun setStatusBar() {
+    protected open  fun setStatusBar() {
         ImmersionBar.with(this)
             .transparentStatusBar()
             .statusBarDarkFont(statusBarDarkMode)

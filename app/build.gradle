@@ -5,17 +5,17 @@ plugins {
 
 android {
     namespace 'com.example.learningapplication'
-    compileSdk 33
+    compileSdk rootProject.ext.android.compileSdkVersion
 
     viewBinding {
         enabled = true
     }
     defaultConfig {
         applicationId "com.example.learningapplication"
-        minSdk 29
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        minSdk rootProject.ext.android.minSdkVersion
+        targetSdk rootProject.ext.android.targetSdkVersion
+        versionCode 100010
+        versionName "1.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -52,5 +52,6 @@ dependencies {
     implementation project(":appui")
     implementation project(":baselib")
     implementation project(":commonlib")
+    implementation project(":net-wrok")
     implementation 'com.github.bumptech.glide:glide:4.13.0'
 }
