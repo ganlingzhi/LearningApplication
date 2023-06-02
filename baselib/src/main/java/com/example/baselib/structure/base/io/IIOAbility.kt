@@ -9,6 +9,6 @@ interface IIOAbility {
      */
     fun <T> subscribe(
         observable: Flowable<T>,
-        observe: DisposableSubscriber<T>
-    )
+        observer: DisposableSubscriber<T>
+    ): DisposableSubscriber<T>
 }

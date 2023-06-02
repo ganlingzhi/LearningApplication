@@ -25,8 +25,9 @@ open class BaseUIChangerLiveData {
     var startActivityByNameLiveData: SingleLiveData<Pair<String, Bundle?>>? = null
     var startActivityLiveData: SingleLiveData<Class<out Activity>>? = null
     var starActivityClearTaskLiveData: SingleLiveData<Class<out Activity>>? = null
-    var startActivityWithMapLiveData: SingleLiveData<Class<out Activity>>? = null
-    var startActivityWithBundleLiveData: SingleLiveData<Class<out Activity>>? = null
+    var startActivityWithMapLiveData: SingleLiveData<Pair<Class<out Activity>, Map<String, *>>>? =
+        null
+    var startActivityWithBundleLiveData: SingleLiveData<Pair<Class<out Activity>,Bundle?>>? = null
 
     /**
      * 打开页面 - 待返回结果

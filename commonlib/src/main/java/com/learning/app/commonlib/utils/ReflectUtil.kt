@@ -4,6 +4,13 @@ import java.lang.reflect.ParameterizedType
 
 object ReflectUtil {
 
+    fun <T> getTargetTFromObj(o: Any?, topTarget: Class<*>?): Class<T>? {
+        return getTargetTFromObj(
+            o,
+            null,
+            topTarget
+        )
+    }
     /**
      * @param o  目标对象
      * @param topObj 目标对象的递归查找上界
