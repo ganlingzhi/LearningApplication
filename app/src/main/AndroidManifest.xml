@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
     <application
         android:name=".LearningApplication"
         android:allowBackup="true"
@@ -26,6 +27,10 @@
         <activity
             android:name=".main.view.StatusBarTestActivity"
             android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".main.view.TestOrderActivity"
+            android:screenOrientation="fullSensor" />
+
     </application>
 
 </manifest>

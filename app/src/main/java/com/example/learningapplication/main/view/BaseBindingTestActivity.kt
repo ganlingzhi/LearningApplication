@@ -19,7 +19,7 @@ class BaseBindingTestActivity : BaseBindingActivity<ActivityMainBinding>() {
     override fun setListener() {
         super.setListener()
         mBinding.tvShowBottomSheet.setOnClickListener {
-            startActivity(Intent(this,StatusBarTestActivity::class.java))
+            startActivity(Intent(this,TestOrderActivity::class.java))
         }
     }
 
